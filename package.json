@@ -1,0 +1,16 @@
+{
+  "name": "landingpage-monorepo",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.0.0",
+    "turbo": "^2.0.0"
+  },
+  "packageManager": "npm@10.8.1"
+}
