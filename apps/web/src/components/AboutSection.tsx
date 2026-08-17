@@ -1,7 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Building, Home, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { features } from "@/types/about";
+import { Feature } from "@/types/about";
+import featuresData from "@/data/about.json";
+
+const features = featuresData as Feature[];
+const iconMap: Record<string, React.ElementType> = { Building, Home, DollarSign };
 
 export function AboutSection() {
   return (
@@ -40,7 +44,7 @@ export function AboutSection() {
         {/* Right Feature Cards */}
         <div className="xl:w-2/4 grid grid-cols-1 md:grid-cols-3 gap-6">
           {features.map((feature, idx) => {
-            const Icon = feature.icon;
+            const Icon = iconMap[feature.icon] || Home;
             return (
               <Card key={idx} className="border-none shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] rounded-3xl p-6 transition-transform hover:-translate-y-1 duration-300 h-full flex flex-col">
                 <CardContent className="p-0 flex flex-col items-start h-full w-full">

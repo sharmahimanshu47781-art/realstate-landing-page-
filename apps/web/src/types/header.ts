@@ -5,11 +5,4 @@ export interface NavLink {
   hasDropdown?: boolean;
 }
 
-export const navLinks: NavLink[] = [
-  { name: "HOME", href: "#", active: true },
-  { name: "SHOP", href: "#", hasDropdown: true },
-  { name: "LISTINGS", href: "#", hasDropdown: true },
-  { name: "BLOG", href: "#", hasDropdown: true },
-  { name: "PAGES", href: "#", hasDropdown: true },
-  { name: "CONTACT", href: "#" },
-];
+

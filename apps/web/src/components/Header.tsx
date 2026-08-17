@@ -1,6 +1,9 @@
 import { Menu, Home } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { navLinks } from "@/types/header";
+import { NavLink } from "@/types/header";
+import navLinksData from "@/data/header.json";
+
+const navLinks = navLinksData as NavLink[];
 
 export function Header() {
   return (

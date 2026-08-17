@@ -8,7 +8,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { properties } from "@/types/topDeals";
+import { Property } from "@/types/topDeals";
+import propertiesData from "@/data/topDeals.json";
+
+const properties = propertiesData as Property[];
 
 export function TopDealsSection() {
   return (

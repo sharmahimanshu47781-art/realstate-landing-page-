@@ -8,41 +8,4 @@ export interface Property {
   sqft: number;
 }
 
-export const properties: Property[] = [
-  {
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800",
-    price: "$26,500",
-    title: "New Apartment Nice View",
-    location: "LEHMAN",
-    beds: 1,
-    baths: 1,
-    sqft: 950,
-  },
-  {
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800",
-    price: "$30,500",
-    title: "Mission District Area",
-    location: "PILTE",
-    beds: 3,
-    baths: 2,
-    sqft: 1050,
-  },
-  {
-    image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800",
-    price: "$34,500",
-    title: "Luxury Villa In Rego Park",
-    location: "90 HOLMZ",
-    beds: 4,
-    baths: 2,
-    sqft: 1150,
-  },
-  {
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800",
-    price: "$28,000",
-    title: "Cozy Family Home",
-    location: "BROOKLYN",
-    beds: 3,
-    baths: 2,
-    sqft: 1200,
-  }
-];
+
