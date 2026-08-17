@@ -1,14 +1,6 @@
 import { Menu, Home } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-
-const navLinks = [
-  { name: "HOME", href: "#", active: true },
-  { name: "SHOP", href: "#", hasDropdown: true },
-  { name: "LISTINGS", href: "#", hasDropdown: true },
-  { name: "BLOG", href: "#", hasDropdown: true },
-  { name: "PAGES", href: "#", hasDropdown: true },
-  { name: "CONTACT", href: "#" },
-];
+import { navLinks } from "@/types/header";
 
 export function Header() {
   return (

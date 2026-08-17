@@ -1,27 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight, Building, Home, DollarSign } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
-const features = [
-  {
-    title: "Consulting Service",
-    description: "We offer tailored solutions to address your unique challenges and goals, from strategic planning to process optimization.",
-    icon: Building,
-    bgColor: "bg-blue-600",
-  },
-  {
-    title: "Home Selling",
-    description: "Selling your home requires careful planning, staging and pricing for maximum appeal and marketing effectiveness.",
-    icon: Home,
-    bgColor: "bg-orange-500",
-  },
-  {
-    title: "Rent Collection",
-    description: "We handle the day-to-day operations, including rent collection, maintenance and tenant screening.",
-    icon: DollarSign,
-    bgColor: "bg-blue-600",
-  },
-];
+import { features } from "@/types/about";
 
 export function AboutSection() {
   return (
