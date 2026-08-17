@@ -1,4 +1,3 @@
-import { LucideIcon, Building, Home, DollarSign } from "lucide-react";
 
 export interface Feature {
   title: string;

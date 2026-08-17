@@ -1,0 +1,18 @@
+{
+  "badgeText": "TRENDING",
+  "trendingText": "2024 Fort Clayton",
+  "title": {
+    "prefix": "Find Your",
+    "highlight": "Dream Home",
+    "suffix": "With Us"
+  },
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+  "priceInfo": {
+    "label": "Starting at",
+    "value": "$20,500"
+  },
+  "image": {
+    "url": "/images/house.png",
+    "alt": "Luxury Modern House"
+  }
+}
